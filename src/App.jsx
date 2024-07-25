@@ -47,7 +47,7 @@ function App() {
         
       } catch (error) {
         console.error(error.message);
-        setError("Error fetching posts:" + error.message)
+        setError("Error fetching posts: " + error.message)
       }
     }
 
